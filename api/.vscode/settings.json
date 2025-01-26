@@ -1,0 +1,4 @@
+{
+	"biome.enabled": false,
+	"eslint.enable": true // Garanta que o ESLint continue habilitado
+}
