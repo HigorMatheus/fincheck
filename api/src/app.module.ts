@@ -6,6 +6,8 @@ import { AuthModule } from './modules/auth/auth.module';
 import { CategoriesModule } from './modules/categories/categories.module';
 import { AuthGuard } from './modules/auth/auth.guard';
 import { APP_GUARD } from '@nestjs/core';
+import { PhotosModule } from './photos/photos.module';
+
 
 @Module({
   imports: [
@@ -14,6 +16,8 @@ import { APP_GUARD } from '@nestjs/core';
     CategoriesModule,
     DatabaseModule,
     AuthModule,
+    PhotosModule,
+    
   ],
   controllers: [],
   providers: [
