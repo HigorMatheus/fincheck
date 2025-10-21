@@ -1,4 +1,18 @@
 {
 	"biome.enabled": false,
-	"eslint.enable": true // Garanta que o ESLint continue habilitado
+	"eslint.enable": true, // Garanta que o ESLint continue habilitado
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+		"editor.formatOnSave": true,
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+		"editor.formatOnSave": true,
+	},
+	"[javascript]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+	},
 }
