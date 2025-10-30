@@ -6,7 +6,6 @@ import { AuthModule } from './modules/auth/auth.module';
 import { CategoriesModule } from './modules/categories/categories.module';
 import { AuthGuard } from './modules/auth/auth.guard';
 import { APP_GUARD } from '@nestjs/core';
-import { PhotosModule } from './photos/photos.module';
 import { BankAccountsModule } from './modules/bank-accounts/bank-accounts.module';
 import { TransactionsModule } from './modules/transactions/transactions.module';
 
@@ -17,7 +16,6 @@ import { TransactionsModule } from './modules/transactions/transactions.module';
     CategoriesModule,
     DatabaseModule,
     AuthModule,
-    PhotosModule,
     BankAccountsModule,
     TransactionsModule,
   ],
